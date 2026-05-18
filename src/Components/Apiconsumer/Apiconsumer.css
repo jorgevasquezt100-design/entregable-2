@@ -1,0 +1,43 @@
+.apiconsumer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.MuiPagination-root {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+  color: white !important;
+  
+}
+
+.MuiPagination-ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 0;
+  color: white;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.input-busqueda {
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+.MuiPaginationItem-root {
+  color: white !important;
+}

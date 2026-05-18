@@ -1,0 +1,45 @@
+.filtro-container {
+  display: flex;
+
+  justify-content: center;
+
+  margin-top: 40px;
+
+  margin-bottom: 30px;
+}
+.filtro-container .MuiOutlinedInput-root {
+  
+    background: rgba(255, 255, 255, 0.08);
+
+  color: white;
+
+  border-radius: 14px;
+}
+.filtro-container input {
+  color: white !important;
+}
+.filtro-container label {
+  color: #cbd5e1 !important;
+}
+.filtro-container .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+.filtro-container .MuiOutlinedInput-root:hover
+.MuiOutlinedInput-notchedOutline {
+  border-color: #818cf8 !important;
+}
+.filtro-container .Mui-focused
+.MuiOutlinedInput-notchedOutline {
+  border-color: #6366f1 !important;
+}
+.MuiAutocomplete-paper {
+  background: #1e293b !important;
+
+  color: white !important;
+}
+.MuiAutocomplete-option {
+  color: white !important;
+}
+.MuiAutocomplete-option:hover {
+  background: rgba(99, 102, 241, 0.3) !important;
+}
